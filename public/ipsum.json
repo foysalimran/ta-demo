@@ -93,18 +93,18 @@
         "allDemo": [
           {
             "image": "./images/index-1-hero.png",
-            "title": "demo-01",
-            "demoLink": "https://themeatelier.net/ipsum/"
+            "title": "Home-01",
+            "demoLink": "https://themeatelier.net/site-templates/ipsum/index.html"
           },
           {
             "image": "./images/index-2-hero.png",
-            "title": "demo-02",
-            "demoLink": "https://themeatelier.net/ipsum/index-2.html"
+            "title": "Home-02",
+            "demoLink": "https://themeatelier.net/site-templates/ipsum/index-2.html"
           },
           {
             "image": "./images/index-3-hero.png",
-            "title": "demo-03",
-            "demoLink": "https://themeatelier.net/ipsum/index-3.html"
+            "title": "Home-03",
+            "demoLink": "https://themeatelier.net/site-templates/ipsum/index-3.html"
           }
         ]
       },
