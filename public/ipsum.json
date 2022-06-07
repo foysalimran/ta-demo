@@ -1,0 +1,66 @@
+{
+  "nilam": [
+    {
+      "hero": {
+        "logo": "./images/Thumbnail.png",
+        "tags": "HTML5",
+        "title": "Nilam",
+        "subtitle": "Domain For Sell and Auction Template",
+        "desc": "Nilam is comes with dymaic contact form. So add your email deploy it, And sold your parked domain faster than ever.",
+        "demoBtn": "CHECK THE DEMO",
+        "demoBtnLink": "#demo",
+        "buyNowTitle": "BUY NOW",
+        "buyNowLink": "https://themeforest.net/item/nilam-domain-sale-and-auction-html-template/21541982"
+      },
+      "demo": {
+        "title": "All Demos",
+        "subtitle": "Check all our exciting demos.",
+        "allDemo": [
+          {
+            "image": "",
+            "title": "demo-01",
+            "demoLink": "https://themeatelier.net/ipsum/"
+          },
+          {
+            "image": "",
+            "title": "demo-02",
+            "demoLink": "https://themeatelier.net/ipsum/"
+          },
+          {
+            "image": "",
+            "title": "demo-03",
+            "demoLink": "https://themeatelier.net/ipsum/"
+          },
+          {
+            "image": "",
+            "title": "demo-04",
+            "demoLink": "https://themeatelier.net/ipsum/"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Have any Question?",
+        "subtitle": "Here are some frequently asked questions by our users.",
+        "allFaq": [
+          {
+            "title": "Is the contact form dynamic?",
+            "description": "Yes, We used nodemailer to dynamic the contact form. So you just need to configure the SMTP and add your email to recive submitted email in your email address."
+          },
+          {
+            "title": "How to deploy the the template?",
+            "description": "The process of deployment is very easy. We have proper instruction in our documentation. It can be deploy through Vercel, Github, Firebase or any other hosting."
+          },
+          {
+            "title": "What is your refund policy?",
+            "description": "We follow rules of Envato for the refund policy. If you don't love the template and if you create a refund request we will refund you within 24 hours."
+          },
+          {
+            "title": "Can I use the template for learning React/NextJS & Tailwind CSS?",
+            "description": "Yes. The template and coding structure has been made very easy for our customers. If you're beginner label learner we think you will be able to understand everything. So you can choose the template for your learning undobetly."
+          }
+        ]
+      }
+    }
+  ]
+  
+}
