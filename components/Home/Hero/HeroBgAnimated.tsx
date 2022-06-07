@@ -29,7 +29,7 @@ const stagger = {
 
 function HeroBgAnimated({hero}:any) {
   
-  const {logo, tags, title, subtitle, desc, demoBtn, demoBtnLink, buyNowTitle, buyNowLink} = hero;
+  const {logo, tags, title, subtitle, desc, demoBtn, demoBtnLink, buyNowTitle, buyNowLink, bgImage} = hero;
   
   return (
     <motion.section
@@ -86,7 +86,7 @@ function HeroBgAnimated({hero}:any) {
           </motion.div>
         </div>
         <div className="relative flex items-center justify-center px-10 py-16 overflow-hidden lg:min-h-screen">
-          <div className="absolute w-full bg-contain lg:min-h-screen animated__hero"></div>
+          <div className="absolute w-full bg-contain lg:min-h-screen animated__hero" style={{backgroundImage: `url(${bgImage})`}}></div>
         </div>
       </div>
     </motion.section>

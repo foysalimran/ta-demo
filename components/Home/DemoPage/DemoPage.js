@@ -56,7 +56,7 @@ const DemoPage = ({ demo }) => {
             >
               <div className="text-center inner">
                 <div className="box-hover">
-                  <Image src={v1Pic} />
+                  <img src={demoItem.image} />
                   <div className="mask">
                     <div className="mask-inner">
                       <div className="pera-text">

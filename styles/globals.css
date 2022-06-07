@@ -62,7 +62,6 @@ a {
   background-image: linear-gradient(180deg, #ffffff 0%, #abdeff 100%);
 }
 .animated__hero {
-  background-image: url(../public/images/preview.png);
   animation: infinite 35s linear infinite;
 }
 
