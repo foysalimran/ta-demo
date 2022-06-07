@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
-import Image from "next/image";
 import Link from "next/link";
-import Thumbnail from "../../../public/images/Thumbnail.png";
 
 const easing = [0.6, -0.5, 0.01, 0.99];
 
@@ -67,19 +65,19 @@ function HeroBgAnimated({hero}:any) {
             </motion.p>
 
             <div className="flex gap-8">
-              <motion.span
-                variants={fadeInUp}
-                className="inline-block px-8 py-3 font-semibold uppercase duration-300 ease-in-out transform border-2 rounded-full cursor-pointer button__primary font-body base-border hover:bg-primary hover:text-white"
-              >
-                <Link href={`${demoBtnLink}`}>{demoBtn}</Link>
+              <motion.span variants={fadeInUp}>
+                <Link href={`${demoBtnLink}`}>
+                  <span className="inline-block px-8 py-3 font-semibold uppercase duration-300 ease-in-out transform border-2 rounded-full cursor-pointer button__primary font-body base-border hover:bg-primary hover:text-white">
+                    {demoBtn}
+                  </span>
+                </Link>
               </motion.span>
 
-              <motion.span
-                variants={fadeInUp}
-                className="inline-block px-8 py-3 font-semibold uppercase transition duration-300 ease-in-out delay-150 border-2 rounded-full button__primary font-body base-border hover:bg-primary hover:text-white"
-              >
+              <motion.span variants={fadeInUp}>
                 <Link href={`${buyNowLink}`}>
-                  {buyNowTitle}
+                  <span className="inline-block px-8 py-3 font-semibold uppercase transition duration-300 ease-in-out delay-150 border-2 rounded-full button__primary font-body base-border hover:bg-primary hover:text-white cursor-pointer">
+                    {buyNowTitle}
+                  </span>
                 </Link>
               </motion.span>
             </div>
