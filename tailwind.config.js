@@ -23,7 +23,6 @@ module.exports = {
       },
     },
     fontFamily: {
-
       'display': ['Poppins', 'sans-serif'],
       'body': ['Montserrat', 'sans-serif'],
      }
