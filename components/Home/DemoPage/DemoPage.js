@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { useState } from "react";
 
 const easing = [0.6, -0.5, 0.01, 0.99];
 
@@ -26,7 +27,18 @@ const stagger = {
 };
 
 const DemoPage = ({ demo }) => {
-  const { title, subtitle, allDemo } = demo;
+  const { title, subtitle, allDemo, primary, secondary} = demo;
+
+  const [isHovering, setIsHovering] = useState({"btn1": false});
+
+  const handleMouseEnter = () => {
+    setIsHovering({"btn1": true});
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovering({"btn1": false});
+  };
+
   return (
     <motion.section
       initial="initial"
@@ -59,7 +71,16 @@ const DemoPage = ({ demo }) => {
                         <div className="mb-3 text-2xl font-bold text-white title">
                           {demoItem.title}
                         </div>
-                        <span className="inline-block px-6 py-2 duration-300 ease-in-out transform border-2 rounded-full cursor-pointer button__primary font-body base-border hover:bg-primary hover:text-white">
+                        <span
+                        style={{
+                          borderWidth: "2px",
+                          borderStyle: "solid", 
+                          borderColor: secondary,
+                          backgroundColor: isHovering.btn1== true  ? `${primary}` : 'transparent',
+                        }}
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}
+                        className="inline-block px-6 py-2 duration-300 ease-in-out transform border-2 rounded-full cursor-pointer button__primary font-body base-border hover:bg-primary hover:text-white">
                             <Link href={demoItem.demoLink}>
                               <a target="_blank">
                                 View Demo

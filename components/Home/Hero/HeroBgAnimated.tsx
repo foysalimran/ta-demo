@@ -1,4 +1,3 @@
-import { log } from "console";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
@@ -49,6 +48,13 @@ function HeroBgAnimated({hero}:any) {
     setIsHovering({"btn1": false, "btn2": false});
   };
 
+  const tagStyle = {
+    backgroundColor: primary,
+    borderColor: secondary,
+    borderWidth: "2px",
+    borderStyle: "solid"
+  }
+
   return (
     <motion.section
       exit={{ opacity: 0 }}
@@ -67,7 +73,7 @@ function HeroBgAnimated({hero}:any) {
               <img width="70px" height="70px" src={logo} />
 
               <span className="text-5xl font-bold siteName">{title}</span>
-              <span className="px-3 py-1 text-xs border-2 rounded-full base-bg light-text siteType base-border">
+              <span style={tagStyle} className="px-3 py-1 text-xs rounded-full  light-text siteType">
                 {tags}
               </span>
             </motion.span>
@@ -91,8 +97,8 @@ function HeroBgAnimated({hero}:any) {
                     borderWidth: "2px",
                     borderStyle: "solid", 
                     borderColor: secondary,
-                    backgroundColor: isHovering.btn1== true  ? `${primary}` : '',
-                    color: isHovering.btn1== true  ? 'white' : '',
+                    backgroundColor: isHovering.btn1  ? `${primary}` : 'transparent',
+                    color: isHovering.btn1  ? 'white' : 'black',
                   }}
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
@@ -110,8 +116,8 @@ function HeroBgAnimated({hero}:any) {
                   borderWidth: "2px",
                   borderStyle: "solid", 
                   borderColor: secondary,
-                  backgroundColor: isHovering.btn2== true ? `${primary}` : '',
-                  color: isHovering.btn2== true  ? 'white' : '',
+                  backgroundColor: isHovering.btn2 ? `${primary}` : 'transparent',
+                  color: isHovering.btn2  ? 'white' : 'black',
                 }}
                 onMouseEnter={handleMouseEnter2}
                   onMouseLeave={handleMouseLeave2}

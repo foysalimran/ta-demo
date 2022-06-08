@@ -2,9 +2,9 @@
   "nilam": [
     {
       "hero": {
-        "primary": "#6365f1",
-        "secondary": "#6592fd",
-        "logo": "./images/Thumbnail.png",
+        "primary": "#44DC46",
+        "secondary": "#1D9D1F",
+        "logo": "./images/nilamThumbnail.png",
         "bgImage": "./images/preview.png",
         "tags": "HTML5",
         "title": "Nilam",
@@ -18,6 +18,8 @@
       "demo": {
         "title": "All Demos",
         "subtitle": "Check all our exciting demos.",
+        "primary": "#44DC46",
+        "secondary": "#1D9D1F",
         "allDemo": [
           {
             "image": "./images/v1.png",
@@ -80,7 +82,7 @@
       "hero": {
         "primary": "#6365f1",
         "secondary": "#6592fd",
-        "logo": "./images/Thumbnail.png",
+        "logo": "./images/ipsumThumbnail.png",
         "bgImage": "./images/ipsum-preview.png",
         "tags": "HTML5",
         "title": "IPSUM",
@@ -94,6 +96,8 @@
       "demo": {
         "title": "All Demos",
         "subtitle": "Check all our exciting demos.",
+        "primary": "#6365f1",
+        "secondary": "#6592fd",
         "allDemo": [
           {
             "image": "./images/index-1-hero.png",
