@@ -40,7 +40,6 @@ const DemoPage = ({ demo }) => {
       <motion.div variants={stagger} className="container">
         <div className="mb-12 text-center ">
           <motion.h3 variants={fadeInUp} className="m-1 text-3xl">
-            {/* <span className="font-normal">All</span> Demos */}
             {title}
           </motion.h3>
           <motion.p variants={fadeInUp}>{subtitle}</motion.p>
@@ -49,7 +48,7 @@ const DemoPage = ({ demo }) => {
         <div className="grid gap-6 demo-item md:grid-cols-2 lg:grid-cols-3">
           {allDemo.map((demoItem, i) => (
           
-            <Link  key={i} href="https://nilam-v01.vercel.app/">
+            <Link  key={i} href={demoItem.demoLink}>
             <motion.div
               variants={fadeInUp}
               className="p-3 bg-gray-100 shadow each-box"
@@ -64,7 +63,7 @@ const DemoPage = ({ demo }) => {
                           {demoItem.title}
                         </div>
                         <span className="inline-block px-6 py-2 duration-300 ease-in-out transform border-2 rounded-full cursor-pointer button__primary font-body base-border hover:bg-primary hover:text-white">
-                          <Link href="https://nilam-v01.vercel.app/">
+                          <Link href={demoItem.demoLink}>
                             View Demo
                           </Link>
                         </span>

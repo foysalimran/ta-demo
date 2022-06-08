@@ -26,7 +26,6 @@ const stagger = {
 };
 
 function HeroBgAnimated({hero}:any) {
-  
   const {logo, tags, title, subtitle, desc, demoBtn, demoBtnLink, buyNowTitle, buyNowLink, bgImage} = hero;
   
   return (
@@ -54,8 +53,6 @@ function HeroBgAnimated({hero}:any) {
 
             <motion.h3 variants={fadeInUp} className="mb-4">
               {subtitle}
-              {/* Domain For Sell and <span className="base-text">Auction </span>
-              Template */}
             </motion.h3>
             <motion.p
               variants={fadeInUp}
