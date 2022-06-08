@@ -76,6 +76,7 @@
   "ipsum": [
     {
       "hero": {
+        "btnPrimary" : "inline-block px-8 py-3 font-semibold uppercase duration-300 ease-in-out transform border-2 rounded-full cursor-pointer font-body border-ipsumPrimary hover:bg-ipsumPrimary hover:text-white",
         "logo": "./images/Thumbnail.png",
         "bgImage": "./images/ipsum-preview.png",
         "tags": "HTML5",

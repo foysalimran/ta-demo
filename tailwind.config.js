@@ -20,6 +20,8 @@ module.exports = {
           '800': '#157216',
           '900': '#0D470E'
         },
+        ipsumPrimary: "#6365f1",
+        ipsumSecondary: "#6592fd",
       },
     },
     fontFamily: {

@@ -9,6 +9,8 @@ const Home: NextPage = () => {
   const { nilam }: any = test;
   const { hero, demo, faq } = nilam[0];
 
+  
+
   return (
     <Layout>
       <HeroBgAnimated hero={hero} />

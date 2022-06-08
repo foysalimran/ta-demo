@@ -25,8 +25,9 @@ const stagger = {
   },
 };
 
+
 function HeroBgAnimated({hero}:any) {
-  const {logo, tags, title, subtitle, desc, demoBtn, demoBtnLink, buyNowTitle, buyNowLink, bgImage} = hero;
+  const {logo, tags, title, subtitle, desc, demoBtn, demoBtnLink, buyNowTitle, buyNowLink, bgImage, btnPrimary} = hero;
   
   return (
     <motion.section
@@ -64,15 +65,15 @@ function HeroBgAnimated({hero}:any) {
             <div className="flex gap-8">
               <motion.span variants={fadeInUp}>
                 <Link href={`${demoBtnLink}`}>
-                  <span className="inline-block px-8 py-3 font-semibold uppercase duration-300 ease-in-out transform border-2 rounded-full cursor-pointer button__primary font-body base-border hover:bg-primary hover:text-white">
+                  <span className={`${btnPrimary}`}>
                     {demoBtn}
                   </span>
                 </Link>
               </motion.span>
 
               <motion.span variants={fadeInUp}>
-                <Link href={`${buyNowLink}`}>
-                  <span className="inline-block px-8 py-3 font-semibold uppercase transition duration-300 ease-in-out delay-150 border-2 rounded-full button__primary font-body base-border hover:bg-primary hover:text-white cursor-pointer">
+                <Link href={`${buyNowLink}`}> 
+                <span className={`${btnPrimary}`}>
                     {buyNowTitle}
                   </span>
                 </Link>
