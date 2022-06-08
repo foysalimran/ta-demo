@@ -1,8 +1,5 @@
 import { motion } from "framer-motion";
-import Image from "next/image";
 import Link from "next/link";
-import React from "react";
-import v1Pic from "../../../public/images/v1.png";
 
 const easing = [0.6, -0.5, 0.01, 0.99];
 
@@ -48,8 +45,8 @@ const DemoPage = ({ demo }) => {
         <div className="grid gap-6 demo-item md:grid-cols-2 lg:grid-cols-3">
           {allDemo.map((demoItem, i) => (
           
-            <Link  key={i} href={demoItem.demoLink}>
-            <motion.div
+
+            <motion.div key={i}
               variants={fadeInUp}
               className="p-3 bg-gray-100 shadow each-box"
             >
@@ -63,8 +60,10 @@ const DemoPage = ({ demo }) => {
                           {demoItem.title}
                         </div>
                         <span className="inline-block px-6 py-2 duration-300 ease-in-out transform border-2 rounded-full cursor-pointer button__primary font-body base-border hover:bg-primary hover:text-white">
-                          <Link href={demoItem.demoLink}>
-                            View Demo
+                            <Link href={demoItem.demoLink}>
+                              <a target="_blank">
+                                View Demo
+                                </a>
                           </Link>
                         </span>
                       </div>
@@ -73,7 +72,7 @@ const DemoPage = ({ demo }) => {
                 </div>
               </div>
             </motion.div>
-          </Link>
+
           ))}
         </div>
       </motion.div>

@@ -11,12 +11,11 @@ const Home: NextPage = () => {
   const { hero, demo, faq, primaryBtn, secondaryBtn } = ipsum[0];
 
   return (
-    <Layout>
-            <Head>
-                <style>
-                   
-                </style>
-            </Head>
+    <Layout
+      title="Ipsum - SAAS landing page"
+      description="SAAS landing page"
+      keywords="saas, html, css, javascript, jquery, scss, landing, marketing, seo, startup"
+    >
       <HeroBgAnimated hero={hero} primaryBtn={primaryBtn} secondaryBtn={secondaryBtn} />
       <DemoPage demo={demo} />
       <Accordion faq={faq} />
