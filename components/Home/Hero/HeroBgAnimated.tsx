@@ -25,9 +25,20 @@ const stagger = {
   },
 };
 
-function HeroBgAnimated({hero}:any) {
-  const {logo, tags, title, subtitle, desc, demoBtn, demoBtnLink, buyNowTitle, buyNowLink, bgImage} = hero;
-  
+function HeroBgAnimated({ hero }: any) {
+  const {
+    logo,
+    tags,
+    title,
+    subtitle,
+    desc,
+    demoBtn,
+    demoBtnLink,
+    buyNowTitle,
+    buyNowLink,
+    bgImage,
+  } = hero;
+
   return (
     <motion.section
       exit={{ opacity: 0 }}
@@ -43,7 +54,7 @@ function HeroBgAnimated({hero}:any) {
               variants={fadeInUp}
               className="flex items-center inline-block gap-2 mb-8 siteLogo font-body"
             >
-              <img width="50px" height="50px" src={logo} />
+              <img width="70px" height="70px" src={logo} />
 
               <span className="text-5xl font-bold siteName">{title}</span>
               <span className="px-3 py-1 text-xs border-2 rounded-full base-bg light-text siteType base-border">
@@ -72,16 +83,21 @@ function HeroBgAnimated({hero}:any) {
 
               <motion.span variants={fadeInUp}>
                 <Link href={`${buyNowLink}`}>
-                  <span className="inline-block px-8 py-3 font-semibold uppercase transition duration-300 ease-in-out delay-150 border-2 rounded-full button__primary font-body base-border hover:bg-primary hover:text-white cursor-pointer">
-                    {buyNowTitle}
-                  </span>
+                  <a target="_blank">
+                    <span className="inline-block px-8 py-3 font-semibold uppercase transition duration-300 ease-in-out delay-150 border-2 rounded-full button__primary font-body base-border hover:bg-primary hover:text-white cursor-pointer">
+                      {buyNowTitle}
+                    </span>
+                  </a>
                 </Link>
               </motion.span>
             </div>
           </motion.div>
         </div>
         <div className="relative flex items-center justify-center px-10 py-16 overflow-hidden lg:min-h-screen">
-          <div className="absolute w-full bg-contain lg:min-h-screen animated__hero" style={{backgroundImage: `url(${bgImage})`}}></div>
+          <div
+            className="absolute w-full bg-contain lg:min-h-screen animated__hero"
+            style={{ backgroundImage: `url(${bgImage})` }}
+          ></div>
         </div>
       </div>
     </motion.section>
