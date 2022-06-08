@@ -8,7 +8,7 @@ import test from "../../public/ipsum.json";
 
 const Home: NextPage = () => {
   const { ipsum }: any = test;
-  const { hero, demo, faq, primaryBtn, secondaryBtn } = ipsum[0];
+  const { hero, demo, faq } = ipsum[0];
 
   return (
     <Layout
@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       description="SAAS landing page"
       keywords="saas, html, css, javascript, jquery, scss, landing, marketing, seo, startup"
     >
-      <HeroBgAnimated hero={hero} primaryBtn={primaryBtn} secondaryBtn={secondaryBtn} />
+      <HeroBgAnimated hero={hero} />
       <DemoPage demo={demo} />
       <Accordion faq={faq} />
     </Layout>

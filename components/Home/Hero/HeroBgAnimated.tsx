@@ -1,5 +1,7 @@
+import { log } from "console";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { useState } from "react";
 
 const easing = [0.6, -0.5, 0.01, 0.99];
 
@@ -26,9 +28,27 @@ const stagger = {
 };
 
 
+
+
 function HeroBgAnimated({hero}:any) {
-  const {logo, tags, title, subtitle, desc, demoBtn, demoBtnLink, buyNowTitle, buyNowLink, bgImage, btnPrimary} = hero;
-  
+  const {logo, tags, title, subtitle, desc, demoBtn, demoBtnLink, buyNowTitle, buyNowLink, bgImage, primary, secondary} = hero;
+  const [isHovering, setIsHovering] = useState({"btn1": false, "btn2": false});
+
+  const handleMouseEnter = () => {
+    setIsHovering({"btn1": true, "btn2": false});
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovering({"btn1": false, "btn2": false});
+  };
+  const handleMouseEnter2 = () => {
+    setIsHovering({"btn1": false, "btn2": true});
+  };
+
+  const handleMouseLeave2 = () => {
+    setIsHovering({"btn1": false, "btn2": false});
+  };
+
   return (
     <motion.section
       exit={{ opacity: 0 }}
@@ -65,7 +85,18 @@ function HeroBgAnimated({hero}:any) {
             <div className="flex gap-8">
               <motion.span variants={fadeInUp}>
                 <Link href={`${demoBtnLink}`}>
-                  <span className={`${btnPrimary}`}>
+                  <span 
+                  
+                  style={{
+                    borderWidth: "2px",
+                    borderStyle: "solid", 
+                    borderColor: secondary,
+                    backgroundColor: isHovering.btn1== true  ? `${primary}` : '',
+                    color: isHovering.btn1== true  ? 'white' : '',
+                  }}
+                  onMouseEnter={handleMouseEnter}
+                  onMouseLeave={handleMouseLeave}
+                  className="inline-block px-8 py-3 font-semibold uppercase duration-300 ease-in-out transform rounded-full cursor-pointer font-body">
                     {demoBtn}
                   </span>
                 </Link>
@@ -73,7 +104,18 @@ function HeroBgAnimated({hero}:any) {
 
               <motion.span variants={fadeInUp}>
                 <Link href={`${buyNowLink}`}> 
-                <span className={`${btnPrimary}`}>
+                <span 
+                
+                style={{
+                  borderWidth: "2px",
+                  borderStyle: "solid", 
+                  borderColor: secondary,
+                  backgroundColor: isHovering.btn2== true ? `${primary}` : '',
+                  color: isHovering.btn2== true  ? 'white' : '',
+                }}
+                onMouseEnter={handleMouseEnter2}
+                  onMouseLeave={handleMouseLeave2}
+                className="inline-block px-8 py-3 font-semibold uppercase duration-300 ease-in-out transform rounded-full cursor-pointer font-body">
                     {buyNowTitle}
                   </span>
                 </Link>
