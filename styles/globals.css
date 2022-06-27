@@ -314,7 +314,7 @@ a {
 
 /* 1.1 ACCORDION */
 .item {
-  @apply my-6 shadow;
+  @apply mb-6 shadow;
 }
 
 .content {

@@ -30,7 +30,7 @@ const stagger = {
 
 
 function HeroBgAnimated({hero}:any) {
-  const {logo, tags, title, subtitle, desc, demoBtn, demoBtnLink, buyNowTitle, buyNowLink, bgImage, primary, secondary} = hero;
+  const {logo, tags, title, subtitle, desc, demoBtn, demoBtnLink, buyNowTitle, buyNowLink, bgImage, primary, secondary, bgGradient} = hero;
   const [isHovering, setIsHovering] = useState({"btn1": false, "btn2": false});
 
   const handleMouseEnter = () => {
@@ -54,6 +54,9 @@ function HeroBgAnimated({hero}:any) {
     borderWidth: "2px",
     borderStyle: "solid"
   }
+  const bgColor = {
+    backgroundImage: bgGradient,
+  }
 
   return (
     <motion.section
@@ -61,7 +64,8 @@ function HeroBgAnimated({hero}:any) {
       initial="initial"
       animate="animate"
       id="hero"
-      className="heroAnimated bgGredient lg:min-h-screen"
+      className="heroAnimated lg:min-h-screen"
+      style={bgColor}
     >
       <div className="grid items-center lg:min-h-screen justify--center lg:grid-cols-2">
         <div className="flex flex-col justify-center max-w-screen-sm px-10 py-16 mx-auto lg:min-h-screen">

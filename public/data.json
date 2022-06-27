@@ -13,7 +13,8 @@
         "demoBtn": "CHECK THE DEMO",
         "demoBtnLink": "#demo",
         "buyNowTitle": "BUY NOW",
-        "buyNowLink": "https://themeforest.net/item/nilam-domain-sale-and-auction-html-template/21541982"
+        "buyNowLink": "https://themeforest.net/item/nilam-domain-sale-and-auction-html-template/21541982",
+        "bgGradient": "linear-gradient(180deg, #ffffff 0%, #abdeff 100%);"
       },
       "demo": {
         "title": "All Demos",
@@ -56,6 +57,8 @@
       "faq": {
         "title": "Have any Question?",
         "subtitle": "Here are some frequently asked questions by our users.",
+        "bgGradient": "linear-gradient(180deg, #ffffff 0%, #abdeff 100%);",
+        "images": "/images/question.jpg",
         "allFaq": [
           {
             "title": "Is the contact form dynamic?",
@@ -91,7 +94,8 @@
         "demoBtn": "CHECK THE DEMO",
         "demoBtnLink": "#demo",
         "buyNowTitle": "BUY NOW",
-        "buyNowLink": "https://themeatelier.net/"
+        "buyNowLink": "https://themeatelier.net/",
+        "bgGradient": "linear-gradient(180deg, #ffffff 0%, #abdeff 100%);"
       },
       "demo": {
         "title": "All Demos",
@@ -119,6 +123,93 @@
       "faq": {
         "title": "Have any Question?",
         "subtitle": "Here are some frequently asked questions by our users.",
+        "bgGradient": "linear-gradient(180deg, #ffffff 0%, #abdeff 100%);",
+        "images": "/images/question.jpg",
+        "allFaq": [
+          {
+            "title": "Is it comes with latest version of bootstrap?",
+            "description": "Yes. On template releasing time the bootstrap version is 5.0.2 and in the template used this version. We will add new version of bootstrap new release in all our new update."
+          },
+          {
+            "title": "How to customize the template",
+            "description": "The customization process of the template is very easy. We used npm method for run the template so you don't need to use usual sass runner for customizing the template. Live server, Sass everything will automatically run with a single command."
+          },
+          {
+            "title": "How to deploy the the template?",
+            "description": "The process of deployment is very easy. We have proper instruction in our documentation."
+          },
+          {
+            "title": "What is your refund policy?",
+            "description": "We follow rules of Envato for the refund policy. If you don't love the template and if you create a refund request we will refund you within 24 hours."
+          },
+          {
+            "title": "Can I use the template for learning HTML, CSS, Bootstarap and SAAS?",
+            "description": "Yes. The template and coding structure has been made very easy for our customers. If you're beginner label learner we think you will be able to understand everything. So you can choose the template for your learning undoubtedly."
+          }
+        ]
+      }
+    }
+  ],
+  "wonted": [
+    {
+      "hero": {
+        "primary": "#c27b7f",
+        "secondary": "#c27b7f",
+        "logo": "./images/wonted/thumbnail.jpg",
+        "bgImage": "./images/wonted/hero.png",
+        "tags": "HTML5",
+        "title": "WONTED",
+        "subtitle": "Multipurpose landing page for ThemeAtelier",
+        "desc": "",
+        "demoBtn": "CHECK THE DEMO",
+        "demoBtnLink": "#demo",
+        "buyNowTitle": "BUY NOW",
+        "buyNowLink": "https://themeatelier.net/",
+        "bgGradient": "linear-gradient(180deg, #fff 0%, #f5ebe6 100%);"
+      },
+      "demo": {
+        "title": "All Demos",
+        "subtitle": "Check all our exciting demos.",
+        "primary": "#c27b7f",
+        "secondary": "#c27b7f",
+        "allDemo": [
+          {
+            "image": "./images/wonted/1.png",
+            "title": "Home-01",
+            "demoLink": "https://themeatelier.net/site-templates/wonted/index.html"
+          },
+          {
+            "image": "./images/wonted/2.png",
+            "title": "Home-02",
+            "demoLink": "https://themeatelier.net/site-templates/wonted/index-2.html"
+          },
+          {
+            "image": "./images/wonted/3.png",
+            "title": "Home-03",
+            "demoLink": "https://themeatelier.net/site-templates/wonted/index-3.html"
+          },
+          {
+            "image": "./images/wonted/4.png",
+            "title": "Home-04",
+            "demoLink": "https://themeatelier.net/site-templates/wonted/index-4.html"
+          },
+          {
+            "image": "./images/wonted/5.png",
+            "title": "Home-05",
+            "demoLink": "https://themeatelier.net/site-templates/wonted/index-5.html"
+          },
+          {
+            "image": "./images/wonted/6.png",
+            "title": "Home-06",
+            "demoLink": "https://themeatelier.net/site-templates/wonted/index-6.html"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Have any Question?",
+        "subtitle": "Here are some frequently asked questions by our users.",
+        "bgGradient": "linear-gradient(180deg, #fff 0%, #f5ebe6 100%);",
+        "images": "/images/question.jpg",
         "allFaq": [
           {
             "title": "Is it comes with latest version of bootstrap?",

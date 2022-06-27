@@ -7,14 +7,14 @@ import Layout from "../../components/Layout";
 import test from "../../public/data.json";
 
 const Home: NextPage = () => {
-  const { ipsum }: any = test;
-  const { hero, demo, faq } = ipsum[0];
+  const { wonted }: any = test;
+  const { hero, demo, faq } = wonted[0];
 
   return (
     <Layout
-      title="Ipsum - SAAS landing page"
-      description="SAAS landing page"
-      keywords="saas, html, css, javascript, jquery, scss, landing, marketing, seo, startup"
+      title="Wonted"
+      description="Multipurpose landing page for ThemeAtelier"
+      keywords="book, ebook, author, writer, html, css, javascript, jquery, scss, landing"
     >
       <HeroBgAnimated hero={hero} />
       <DemoPage demo={demo} />
