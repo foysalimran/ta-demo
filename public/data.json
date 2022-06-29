@@ -6,14 +6,14 @@
         "secondary": "#1D9D1F",
         "logo": "./images/nilamThumbnail.png",
         "bgImage": "./images/preview.png",
-        "tags": "HTML5",
+        "tags": "Next.js",
         "title": "Nilam",
         "subtitle": "Domain For Sell and Auction Template",
         "desc": "Nilam is comes with dymaic contact form. So add your email deploy it, And sold your parked domain faster than ever.",
         "demoBtn": "CHECK THE DEMO",
         "demoBtnLink": "#demo",
         "buyNowTitle": "BUY NOW",
-        "buyNowLink": "https://themeforest.net/item/nilam-domain-sale-and-auction-html-template/21541982",
+        "buyNowLink": "https://codecanyon.net/item/nilam-domain-for-sell-and-auction-react-nextjs-typescript-tailwind-template/38458652",
         "bgGradient": "linear-gradient(180deg, #ffffff 0%, #abdeff 100%);"
       },
       "demo": {
@@ -24,32 +24,32 @@
         "allDemo": [
           {
             "image": "./images/v1.png",
-            "title": "demo-01",
+            "title": "Version-01",
             "demoLink": "https://nilam-v01.vercel.app/"
           },
           {
             "image": "./images/v2.png",
-            "title": "demo-02",
+            "title": "Version-02",
             "demoLink": "https://nilam-v02.vercel.app/"
           },
           {
             "image": "./images/v3.png",
-            "title": "demo-03",
+            "title": "Version-03",
             "demoLink": "https://nilam-v03.vercel.app/"
           },
           {
             "image": "./images/v4.png",
-            "title": "demo-04",
+            "title": "Version-04",
             "demoLink": "https://nilam-v04.vercel.app/"
           },
           {
             "image": "./images/v5.png",
-            "title": "demo-05",
+            "title": "Version-05",
             "demoLink": "https://nilam-v05.vercel.app/"
           },
           {
             "image": "./images/v6.png",
-            "title": "demo-06",
+            "title": "Version-06",
             "demoLink": "https://nilam-v06.vercel.app/"
           }
         ]
@@ -175,32 +175,32 @@
         "allDemo": [
           {
             "image": "./images/wonted/1.png",
-            "title": "Home-01",
+            "title": "Version-01",
             "demoLink": "https://themeatelier.net/site-templates/wonted/index.html"
           },
           {
             "image": "./images/wonted/2.png",
-            "title": "Home-02",
+            "title": "Version-02",
             "demoLink": "https://themeatelier.net/site-templates/wonted/index-2.html"
           },
           {
             "image": "./images/wonted/3.png",
-            "title": "Home-03",
+            "title": "Version-03",
             "demoLink": "https://themeatelier.net/site-templates/wonted/index-3.html"
           },
           {
             "image": "./images/wonted/4.png",
-            "title": "Home-04",
+            "title": "Version-04",
             "demoLink": "https://themeatelier.net/site-templates/wonted/index-4.html"
           },
           {
             "image": "./images/wonted/5.png",
-            "title": "Home-05",
+            "title": "Version-05",
             "demoLink": "https://themeatelier.net/site-templates/wonted/index-5.html"
           },
           {
             "image": "./images/wonted/6.png",
-            "title": "Home-06",
+            "title": "Version-06",
             "demoLink": "https://themeatelier.net/site-templates/wonted/index-6.html"
           }
         ]
