@@ -25,32 +25,32 @@
           {
             "image": "./images/v1.png",
             "title": "demo-01",
-            "demoLink": "https://themeatelier.net/ipsum/"
+            "demoLink": "https://nilam-v01.vercel.app/"
           },
           {
             "image": "./images/v2.png",
             "title": "demo-02",
-            "demoLink": "https://themeatelier.net/ipsum/"
+            "demoLink": "https://nilam-v02.vercel.app/"
           },
           {
             "image": "./images/v3.png",
             "title": "demo-03",
-            "demoLink": "https://themeatelier.net/ipsum/"
+            "demoLink": "https://nilam-v03.vercel.app/"
           },
           {
             "image": "./images/v4.png",
             "title": "demo-04",
-            "demoLink": "https://themeatelier.net/ipsum/"
+            "demoLink": "https://nilam-v04.vercel.app/"
           },
           {
             "image": "./images/v5.png",
-            "title": "demo-04",
-            "demoLink": "https://themeatelier.net/ipsum/"
+            "title": "demo-05",
+            "demoLink": "https://nilam-v05.vercel.app/"
           },
           {
             "image": "./images/v6.png",
-            "title": "demo-04",
-            "demoLink": "https://themeatelier.net/ipsum/"
+            "title": "demo-06",
+            "demoLink": "https://nilam-v06.vercel.app/"
           }
         ]
       },
