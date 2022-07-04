@@ -58,7 +58,8 @@
         "title": "Have any Question?",
         "subtitle": "Here are some frequently asked questions by our users.",
         "bgGradient": "linear-gradient(180deg, #ffffff 0%, #abdeff 100%);",
-        "images": "/images/question.jpg",
+        "imgColorPrimary": "#1D9D1F",
+        "imgColorSecondary": "#44DC46",
         "allFaq": [
           {
             "title": "Is the contact form dynamic?",
@@ -124,7 +125,8 @@
         "title": "Have any Question?",
         "subtitle": "Here are some frequently asked questions by our users.",
         "bgGradient": "linear-gradient(180deg, #ffffff 0%, #abdeff 100%);",
-        "images": "/images/question.jpg",
+        "imgColorPrimary": "#6592fd",
+        "imgColorSecondary": "#6365f1",
         "allFaq": [
           {
             "title": "Is it comes with latest version of bootstrap?",
@@ -159,12 +161,12 @@
         "bgImage": "./images/wonted/hero.png",
         "tags": "HTML5",
         "title": "WONTED",
-        "subtitle": "Multipurpose landing page for ThemeAtelier",
+        "subtitle": "Wonted | Book & Author Landing page",
         "desc": "",
         "demoBtn": "CHECK THE DEMO",
         "demoBtnLink": "#demo",
         "buyNowTitle": "BUY NOW",
-        "buyNowLink": "https://themeatelier.net/",
+        "buyNowLink": "https://themeforest.net/item/wonted-book-author-landing-page/38494801",
         "bgGradient": "linear-gradient(180deg, #fff 0%, #f5ebe6 100%);"
       },
       "demo": {
@@ -209,7 +211,8 @@
         "title": "Have any Question?",
         "subtitle": "Here are some frequently asked questions by our users.",
         "bgGradient": "linear-gradient(180deg, #fff 0%, #f5ebe6 100%);",
-        "images": "/images/question.jpg",
+        "imgColorPrimary": "#c27b7f",
+        "imgColorSecondary": "#876585",
         "allFaq": [
           {
             "title": "Is it comes with latest version of bootstrap?",
