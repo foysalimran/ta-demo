@@ -77,7 +77,7 @@ function HeroBgAnimated({hero}:any) {
               <img width="70px" height="70px" src={logo} />
 
               <span className="text-5xl font-bold siteName">{title}</span>
-              <span style={tagStyle} className="px-3 py-1 text-xs rounded-full  light-text siteType">
+              <span style={tagStyle} className="px-3 py-1 text-xs rounded-full light-text siteType">
                 {tags}
               </span>
             </motion.span>
@@ -113,7 +113,8 @@ function HeroBgAnimated({hero}:any) {
               </motion.span>
 
               <motion.span variants={fadeInUp}>
-                <Link href={`${buyNowLink}`}> 
+                <Link href={`${buyNowLink}`} passHref> 
+                <a target="_blank">
                 <span 
                 
                 style={{
@@ -128,6 +129,7 @@ function HeroBgAnimated({hero}:any) {
                 className="inline-block px-8 py-3 font-semibold uppercase duration-300 ease-in-out transform rounded-full cursor-pointer font-body">
                     {buyNowTitle}
                   </span>
+                </a>
                 </Link>
               </motion.span>
             </div>
