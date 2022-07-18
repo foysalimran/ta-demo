@@ -76,27 +76,20 @@ function HeroBgAnimated({hero}:any) {
             >
               <img width="70px" height="70px" src={logo} />
 
-              <span className="text-5xl font-bold siteName">{title}</span>
-              <span style={tagStyle} className="px-3 py-1 text-xs rounded-full light-text siteType">
+              <span className="text-4xl font-bold sm:text-5xl siteName">{title}</span>
+              <span style={tagStyle} className="hidden px-3 py-1 text-xs rounded-full light-text siteType sm:block">
                 {tags}
               </span>
             </motion.span>
 
-            <motion.h3 variants={fadeInUp} className="mb-4">
+            <motion.h3 variants={fadeInUp} className="mb-4 text-2xl sm:text-4xl">
               {subtitle}
             </motion.h3>
-            <motion.p
-              variants={fadeInUp}
-              className="mb-10 text-2xl text-gray-800 font-body"
-            >
-              {desc}
-            </motion.p>
 
-            <div className="flex gap-8">
+            <div className="sm:gap-8 sm:flex">
               <motion.span variants={fadeInUp}>
                 <Link href={`${demoBtnLink}`}>
-                  <span 
-                  
+                  <span
                   style={{
                     borderWidth: "2px",
                     borderStyle: "solid", 
@@ -106,7 +99,7 @@ function HeroBgAnimated({hero}:any) {
                   }}
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
-                  className="inline-block px-8 py-3 font-semibold uppercase duration-300 ease-in-out transform rounded-full cursor-pointer font-body">
+                  className="inline-block w-full px-8 py-3 mb-4 text-base font-semibold text-center uppercase duration-300 ease-in-out transform rounded-full cursor-pointer sm:text-lg sm:w-auto font-body md:mb-0">
                     {demoBtn}
                   </span>
                 </Link>
@@ -126,7 +119,7 @@ function HeroBgAnimated({hero}:any) {
                 }}
                 onMouseEnter={handleMouseEnter2}
                   onMouseLeave={handleMouseLeave2}
-                className="inline-block px-8 py-3 font-semibold uppercase duration-300 ease-in-out transform rounded-full cursor-pointer font-body">
+                className="inline-block w-full px-8 py-3 text-base font-semibold text-center uppercase duration-300 ease-in-out transform rounded-full cursor-pointer sm:text-lg sm:w-auto font-body">
                     {buyNowTitle}
                   </span>
                 </a>
