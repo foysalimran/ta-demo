@@ -239,7 +239,7 @@
     {
       "hero": {
         "primary": "#bf0d3e",
-        "secondary": "#0f3460",
+        "secondary": "rgb(90 117 150)",
         "logo": "./images/statesman/thumbnail.png",
         "bgImage": "./images/statesman/hero.png",
         "tags": "HTML5",
