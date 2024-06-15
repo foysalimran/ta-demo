@@ -26,37 +26,48 @@ const stagger = {
   },
 };
 
-
-
-
-function HeroBgAnimated({hero}:any) {
-  const {logo, tags, title, subtitle, desc, demoBtn, demoBtnLink, buyNowTitle, buyNowLink, bgImage, primary, secondary, bgGradient} = hero;
-  const [isHovering, setIsHovering] = useState({"btn1": false, "btn2": false});
+function HeroBgAnimated({ hero }: any) {
+  const {
+    logo,
+    tags,
+    title,
+    subtitle,
+    desc,
+    demoBtn,
+    demoBtnLink,
+    buyNowTitle,
+    buyNowLink,
+    bgImage,
+    primary,
+    secondary,
+    bgGradient,
+  } = hero;
+  const [isHovering, setIsHovering] = useState({ btn1: false, btn2: false });
 
   const handleMouseEnter = () => {
-    setIsHovering({"btn1": true, "btn2": false});
+    setIsHovering({ btn1: true, btn2: false });
   };
 
   const handleMouseLeave = () => {
-    setIsHovering({"btn1": false, "btn2": false});
+    setIsHovering({ btn1: false, btn2: false });
   };
   const handleMouseEnter2 = () => {
-    setIsHovering({"btn1": false, "btn2": true});
+    setIsHovering({ btn1: false, btn2: true });
   };
 
   const handleMouseLeave2 = () => {
-    setIsHovering({"btn1": false, "btn2": false});
+    setIsHovering({ btn1: false, btn2: false });
   };
 
   const tagStyle = {
     backgroundColor: primary,
     borderColor: secondary,
     borderWidth: "2px",
-    borderStyle: "solid"
-  }
+    borderStyle: "solid",
+  };
   const bgColor = {
     backgroundImage: bgGradient,
-  }
+  };
 
   return (
     <motion.section
@@ -76,13 +87,21 @@ function HeroBgAnimated({hero}:any) {
             >
               <img width="70px" height="70px" src={logo} />
 
-              <span className="text-4xl font-bold sm:text-5xl siteName">{title}</span>
-              <span style={tagStyle} className="hidden px-3 py-1 text-xs rounded-full light-text siteType sm:block">
+              <span className="text-4xl font-bold sm:text-5xl siteName">
+                {title}
+              </span>
+              <span
+                style={tagStyle}
+                className="hidden px-3 py-1 text-xs rounded-full light-text siteType sm:block"
+              >
                 {tags}
               </span>
             </motion.span>
 
-            <motion.h3 variants={fadeInUp} className="mb-4 text-2xl sm:text-4xl">
+            <motion.h3
+              variants={fadeInUp}
+              className="mb-4 text-2xl sm:text-4xl"
+            >
               {subtitle}
             </motion.h3>
 
@@ -90,39 +109,42 @@ function HeroBgAnimated({hero}:any) {
               <motion.span variants={fadeInUp}>
                 <Link href={`${demoBtnLink}`}>
                   <span
-                  style={{
-                    borderWidth: "2px",
-                    borderStyle: "solid", 
-                    borderColor: secondary,
-                    backgroundColor: isHovering.btn1  ? `${primary}` : 'transparent',
-                    color: isHovering.btn1  ? 'white' : 'black',
-                  }}
-                  onMouseEnter={handleMouseEnter}
-                  onMouseLeave={handleMouseLeave}
-                  className="inline-block w-full px-8 py-3 mb-4 text-base font-semibold text-center uppercase duration-300 ease-in-out transform rounded-full cursor-pointer sm:text-lg sm:w-auto font-body md:mb-0">
+                    style={{
+                      borderWidth: "2px",
+                      borderStyle: "solid",
+                      borderColor: secondary,
+                      backgroundColor: isHovering.btn1
+                        ? `${primary}`
+                        : "transparent",
+                      color: isHovering.btn1 ? "white" : "black",
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                    className="inline-block w-full px-8 py-3 mb-4 text-base font-semibold text-center uppercase duration-300 ease-in-out transform rounded-full cursor-pointer sm:text-lg sm:w-auto font-body md:mb-0"
+                  >
                     {demoBtn}
                   </span>
                 </Link>
               </motion.span>
 
               <motion.span variants={fadeInUp}>
-                <Link href={`${buyNowLink}`} passHref> 
-                <a target="_blank">
-                <span 
-                
-                style={{
-                  borderWidth: "2px",
-                  borderStyle: "solid", 
-                  borderColor: secondary,
-                  backgroundColor: isHovering.btn2 ? `${primary}` : 'transparent',
-                  color: isHovering.btn2  ? 'white' : 'black',
-                }}
-                onMouseEnter={handleMouseEnter2}
-                  onMouseLeave={handleMouseLeave2}
-                className="inline-block w-full px-8 py-3 text-base font-semibold text-center uppercase duration-300 ease-in-out transform rounded-full cursor-pointer sm:text-lg sm:w-auto font-body">
+                <Link target="_blank" href={`${buyNowLink}`} passHref>
+                  <span
+                    style={{
+                      borderWidth: "2px",
+                      borderStyle: "solid",
+                      borderColor: secondary,
+                      backgroundColor: isHovering.btn2
+                        ? `${primary}`
+                        : "transparent",
+                      color: isHovering.btn2 ? "white" : "black",
+                    }}
+                    onMouseEnter={handleMouseEnter2}
+                    onMouseLeave={handleMouseLeave2}
+                    className="inline-block w-full px-8 py-3 text-base font-semibold text-center uppercase duration-300 ease-in-out transform rounded-full cursor-pointer sm:text-lg sm:w-auto font-body"
+                  >
                     {buyNowTitle}
                   </span>
-                </a>
                 </Link>
               </motion.span>
             </div>

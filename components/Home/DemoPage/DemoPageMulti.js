@@ -26,10 +26,10 @@ const stagger = {
   },
 };
 
-const DemoPage = ({ demo }) => {
-  const { single } = demo;
-  const { title, subtitle, allDemo, primary, secondary, tertiary} = single;
-console.log(tertiary);
+const DemoPageMulti = ({ demo }) => {
+  const { multi } = demo;
+  const { title, subtitle, allDemo, primary, secondary} = multi;
+
   const [isHovering, setIsHovering] = useState({"btn1": false});
 
   const handleMouseEnter = () => {
@@ -45,10 +45,7 @@ console.log(tertiary);
       initial="initial"
       animate="animate"
       id="demo"
-      className="section-padding"
-      style={{
-        backgroundColor: tertiary
-      }}
+      className="section-padding "
     >
       <motion.div variants={stagger} className="container">
         <div className="mb-12 text-center ">
@@ -58,7 +55,7 @@ console.log(tertiary);
           <motion.p variants={fadeInUp}>{subtitle}</motion.p>
         </div>
 
-        <div className="grid gap-6 demo-item md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 demo-item md:grid-cols-2 lg:grid-cols-2">
           {allDemo.map((demoItem, i) => (
           
 
@@ -68,7 +65,7 @@ console.log(tertiary);
             >
               <div className="text-center inner">
                 <div className="box-hover">
-                  <img src={demoItem.image} />
+                  <img src={demoItem.image} alt={title} />
                   <div className="mask">
                     <div className="mask-inner">
                       <div className="pera-text">
@@ -103,4 +100,4 @@ console.log(tertiary);
   );
 };
 
-export default DemoPage;
+export default DemoPageMulti;
