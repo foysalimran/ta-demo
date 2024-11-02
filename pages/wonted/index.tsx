@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import Head from "next/head";
 import Accordion from "../../components/Home/Accordion/Accordion";
 import DemoPage from "../../components/Home/DemoPage/DemoPage";
 import DemoPageMulti from "../../components/Home/DemoPage/DemoPageMulti";
@@ -18,8 +17,8 @@ const Home: NextPage = () => {
       keywords="book, ebook, author, writer, html, css, javascript, jquery, scss, landing"
     >
       <HeroBgAnimated hero={hero} />
-      <DemoPageMulti demo={demo} />
       <DemoPage demo={demo} />
+      <DemoPageMulti demo={demo} />
       <Accordion faq={faq} />
     </Layout>
   );
