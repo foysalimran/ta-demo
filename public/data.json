@@ -369,8 +369,8 @@
       "hero": {
         "primary": "#0015B5",
         "secondary": "#263AD0",
-        "logo": "./images/wonted/thumbnail.jpg",
-        "bgImage": "./images/wonted/hero.png",
+        "logo": "https://s3.envato.com/files/501589935/Thumbnail.png",
+        "bgImage": "./images/eventBundle/hero.png",
         "tags": "Bundle",
         "title": "Event Bundle",
         "subtitle": "The Events Calendar Add-ons Bundle",
