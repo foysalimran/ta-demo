@@ -87,7 +87,7 @@ function HeroBgAnimated({ hero }: any) {
             >
               <img width="70px" height="70px" src={logo} />
 
-              <span className="text-4xl font-bold sm:text-5xl siteName">
+              <span className="text-2xl font-bold sm:text-4xl siteName">
                 {title}
               </span>
               <span
@@ -100,7 +100,7 @@ function HeroBgAnimated({ hero }: any) {
 
             <motion.h3
               variants={fadeInUp}
-              className="mb-4 text-2xl sm:text-4xl"
+              className="mb-4 text-xl sm:text-3xl"
             >
               {subtitle}
             </motion.h3>

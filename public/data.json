@@ -447,5 +447,88 @@
         ]
       }
     }
+  ],  "essentialElementor": [
+    {
+      "hero": {
+        "primary": "#93003A",
+        "secondary": "#93003A",
+        "logo": "https://s3.envato.com/files/500778298/Thumbnail.png",
+        "bgImage": "./images/eventBundle/hero.png",
+        "tags": "Bundle",
+        "title": "Elementor Addons",
+        "subtitle": "Essential Add-ons Bundle for Elementor Page Builder",
+        "demoBtn": "CHECK THE DEMO",
+        "demoBtnLink": "#demo",
+        "buyNowTitle": "BUY NOW",
+        "buyNowLink": "https://1.envato.market/essential-elementor",
+        "bgGradient": "linear-gradient(180deg, #fff 0%, #abdeff 100%);"
+      },
+      "demo": {
+        
+        "single": {
+          "title": "All Plugins Inside The Bundle",
+          "subtitle": "",
+          "primary": "#93003A",
+          "secondary": "#93003A",
+          "tertiary": "#f5f5f5b8",
+          "allDemo": [
+            {
+              "image": "https://market-resized.envatousercontent.com/codecanyon.net/files/490407470/01_preview.jpg?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=3e0849b96517d7f3483d5058e8e0afb6bf159ca7d23c90071d5d50e5f56a0594",
+              "title": "Event showcase for Elementor & The Event Calendar",
+              "demoLink": "https://wp-plugins.themeatelier.net/eventful/eventful-el-carousel/"
+            },
+            {
+              "image": "https://market-resized.envatousercontent.com/codecanyon.net/files/489764067/01_preview.png?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=8ad975afb9eb84954f71f7f6e750b9d7cd4ae3e51ae55899430e2cb2dee49f2e",
+              "title": "Smart post layout for Elementor",
+              "demoLink": "https://wp-plugins.themeatelier.net/postify/postify-el-carousel/"
+            },
+            {
+              "image": "./images/essentialElementor/productify-elementor.jpg",
+              "title": "Productify for Elementor & WooCommerce:",
+              "demoLink": "https://wp-plugins.themeatelier.net/productify/productify-el-grid/"
+            },
+            {
+              "image": "./images/essentialElementor/catshowcase-elementor.png",
+              "title": "CatShowcase for Elementor & WooCommerce",
+              "demoLink": "https://wp-plugins.themeatelier.net/productify/catshowcase/"
+            },
+            {
+              "image": "https://market-resized.envatousercontent.com/codecanyon.net/files/491773499/01_preview.png?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=5c64f51526901faa46ba4073082a445cf7ece1de9a082f14a5156c7016ef4be6",
+              "title": "IDonatePro - Elementor Addon for Elementor",
+              "demoLink": "https://demo.bloodwp.com/"
+            }
+          ]
+        }
+      },
+      "faq": {
+        "title": "Have any Question?",
+        "subtitle": "Here are some frequently asked questions by our users.",
+        "bgGradient": "linear-gradient(180deg, #fff 0%, #abdeff 100%);",
+        "imgColorPrimary": "#93003A",
+        "imgColorSecondary": "#93003A",
+        "allFaq": [
+          {
+            "title": "What is your refund policy?",
+            "description": "We fully stand behind our plugins and are committed to delivering quality. However, we understand that not every plugin will be a perfect fit for everyone. If you’re not satisfied with your purchase, encounter any issues, or if there’s a problem we can’t resolve, we’re happy to offer a full 100% refund within 14 days of your original purchase—no questions asked."
+          },
+          {
+            "title": "Can I use a ThemeAtelier plugins on more than one site?",
+            "description": "When purchasing a ThemeAtelier plugin from CodeCanyon, the licensing terms are governed by CodeCanyon's standard licenses. According to these terms, each license permits the use of the plugin on a single end product, which typically translates to one website or domain. This means that to use the plugin on multiple sites, you would need to purchase separate licenses for each site. It's important to note that CodeCanyon does not offer a developer or multi-site license for themes and code items. Therefore, even with an Extended License, the usage is still limited to a single end product and does not extend to multiple sites."
+          },
+          {
+            "title": "Can I customize the plugins?",
+            "description": "Our plugins are fully customizable, giving you complete control over the styling. Each plugin includes an easy-to-use settings panel, allowing you to adjust all features without needing to touch a single line of code."
+          },
+          {
+            "title": "How often are plugins updated?",
+            "description": "Plugin updates depend on several factors. Security patches and critical bug fixes are prioritized and released as quickly as possible. Updates that enhance our plugin framework and introduce new features are provided regularly."
+          },
+          {
+            "title": "Are the plugins translation-ready?",
+            "description": "Yes, ThemeAtelier plugins are fully translatable and have been tested with WPML, Polylang, Loco Translate, qTranslate-X, GTranslate, Google Language Translator, WPGlobus, and more."
+          }
+        ]
+      }
+    }
   ]
 }
