@@ -363,5 +363,89 @@
         ]
       }
     }
+  ],
+  "eventBundle": [
+    {
+      "hero": {
+        "primary": "#0015B5",
+        "secondary": "#263AD0",
+        "logo": "./images/wonted/thumbnail.jpg",
+        "bgImage": "./images/wonted/hero.png",
+        "tags": "Bundle",
+        "title": "Event Bundle",
+        "subtitle": "The Events Calendar Add-ons Bundle",
+        "demoBtn": "CHECK THE DEMO",
+        "demoBtnLink": "#demo",
+        "buyNowTitle": "BUY NOW",
+        "buyNowLink": "https://1.envato.market/dOKoyQ",
+        "bgGradient": "linear-gradient(180deg, #fff 0%, #abdeff 100%);"
+      },
+      "demo": {
+        
+        "single": {
+          "title": "All Plugins Inside The Bundle",
+          "subtitle": "",
+          "primary": "#0015B5",
+          "secondary": "#263AD0",
+          "tertiary": "#f5f5f5b8",
+          "allDemo": [
+            {
+              "image": "https://market-resized.envatousercontent.com/codecanyon.net/files/483743043/01_preview.png?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=e2471267eeb3e374f655c4912c64f89e358d0aa89b54b9524c8ad5bcb2899d95",
+              "title": "Eventful - Events Showcase For The Events Calendar",
+              "demoLink": "https://wp-plugins.themeatelier.net/eventful"
+            },
+            {
+              "image": "https://market-resized.envatousercontent.com/codecanyon.net/files/490407470/01_preview.jpg?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=3e0849b96517d7f3483d5058e8e0afb6bf159ca7d23c90071d5d50e5f56a0594",
+              "title": "Eventful - Events Showcase For Elementor And The Events Calendar",
+              "demoLink": "https://wp-plugins.themeatelier.net/eventful/eventful-el-carousel/"
+            },
+            {
+              "image": "https://market-resized.envatousercontent.com/codecanyon.net/files/500042502/01_preview.jpg?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=7c5eeebc5de50beddafcc8a391f1d970e7292ee5836232e56b696f75fd22f042",
+              "title": "Event Venue Showcase for The Event Calendar",
+              "demoLink": "https://js-plugins.themeatelier.net/venue/"
+            },
+            {
+              "image": "https://market-resized.envatousercontent.com/codecanyon.net/files/500704331/01_preview.jpg?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=8a1df1295db78ff40597b05222af404b04851016ec512e0f44961e2a68964499",
+              "title": "Event Organizers Showcase for The Event Calendar",
+              "demoLink": "https://wp-plugins.themeatelier.net/organizers/"
+            },
+            {
+              "image": "./images/eventBundle/01_preview.png",
+              "title": "EventDetailer - Event Single-Page Layouts:",
+              "demoLink": "https://wp-plugins.themeatelier.net/eventful/event/retreat-for-meetings-and-sales/"
+            }
+          ]
+        }
+      },
+      "faq": {
+        "title": "Have any Question?",
+        "subtitle": "Here are some frequently asked questions by our users.",
+        "bgGradient": "linear-gradient(180deg, #fff 0%, #f5ebe6 100%);",
+        "imgColorPrimary": "#0015B5",
+        "imgColorSecondary": "#263AD0",
+        "allFaq": [
+          {
+            "title": "What is your refund policy?",
+            "description": "We fully stand behind our plugins and are committed to delivering quality. However, we understand that not every plugin will be a perfect fit for everyone. If you’re not satisfied with your purchase, encounter any issues, or if there’s a problem we can’t resolve, we’re happy to offer a full 100% refund within 14 days of your original purchase—no questions asked."
+          },
+          {
+            "title": "Can I use a ThemeAtelier plugins on more than one site?",
+            "description": "When purchasing a ThemeAtelier plugin from CodeCanyon, the licensing terms are governed by CodeCanyon's standard licenses. According to these terms, each license permits the use of the plugin on a single end product, which typically translates to one website or domain. This means that to use the plugin on multiple sites, you would need to purchase separate licenses for each site. It's important to note that CodeCanyon does not offer a developer or multi-site license for themes and code items. Therefore, even with an Extended License, the usage is still limited to a single end product and does not extend to multiple sites."
+          },
+          {
+            "title": "Can I customize the plugins?",
+            "description": "Our plugins are fully customizable, giving you complete control over the styling. Each plugin includes an easy-to-use settings panel, allowing you to adjust all features without needing to touch a single line of code."
+          },
+          {
+            "title": "How often are plugins updated?",
+            "description": "Plugin updates depend on several factors. Security patches and critical bug fixes are prioritized and released as quickly as possible. Updates that enhance our plugin framework and introduce new features are provided regularly."
+          },
+          {
+            "title": "Are the plugins translation-ready?",
+            "description": "Yes, ThemeAtelier plugins are fully translatable and have been tested with WPML, Polylang, Loco Translate, qTranslate-X, GTranslate, Google Language Translator, WPGlobus, and more."
+          }
+        ]
+      }
+    }
   ]
 }
