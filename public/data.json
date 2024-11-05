@@ -420,7 +420,7 @@
       "faq": {
         "title": "Have any Question?",
         "subtitle": "Here are some frequently asked questions by our users.",
-        "bgGradient": "linear-gradient(180deg, #fff 0%, #f5ebe6 100%);",
+        "bgGradient": "linear-gradient(180deg, #fff 0%, #abdeff 100%);",
         "imgColorPrimary": "#0015B5",
         "imgColorSecondary": "#263AD0",
         "allFaq": [
