@@ -530,5 +530,124 @@
         ]
       }
     }
+  ],"essentialWp": [
+    {
+      "hero": {
+        "primary": "#21769A",
+        "secondary": "#135978",
+        "logo": "https://s3.envato.com/files/482690541/Thumbnail.png",
+        "bgImage": "./images/essentialWp/hero.webp",
+        "tags": "Bundle",
+        "title": "WordPress Plugins",
+        "subtitle": "Essential Plugin Bundle for WordPress",
+        "demoBtn": "CHECK THE DEMO",
+        "demoBtnLink": "#demo",
+        "buyNowTitle": "BUY NOW",
+        "buyNowLink": "https://1.envato.market/essential-plugin",
+        "bgGradient": "linear-gradient(180deg, #fff 0%, #abdeff 100%);"
+      },
+      "demo": {
+        
+        "single": {
+          "title": "All Plugins Inside The Bundle",
+          "subtitle": "",
+          "primary": "#21769A",
+          "secondary": "#135978",
+          "tertiary": "#f5f5f5b8",
+          "allDemo": [
+            {
+              "image": "https://market-resized.envatousercontent.com/codecanyon.net/files/479743172/01_preview.png?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=b6928a28a9d4bcbc3667d332297f6a9dec45b7c58f61933b5308387d0c5016b0",
+              "title": "WordPress Dark Mode Plugin",
+              "demoLink": "https://wp-plugins.themeatelier.net/"
+            },
+            {
+              "image": "https://market-resized.envatousercontent.com/codecanyon.net/files/473913578/01_preview.png?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=7e4b02d290f473ae08d185aff93b0f97e963ba89db35c1aa4aee0822ca97eb2d",
+              "title": "Domina – Domain For Sale & Auction Plugin",
+              "demoLink": "https://wp-plugins.themeatelier.net/domina/"
+            },
+            {
+              "image": "https://market-resized.envatousercontent.com/codecanyon.net/files/435013315/01_preview.jpg?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=d9f309697d4a0fd074aed3c99a1f57e59aae543908c22521e5573822029c2d8d",
+              "title": "Nilam - Domain For Sale & Auction Plugin",
+              "demoLink": "https://wp-plugins.themeatelier.net/nilam/"
+            },
+            {
+              "image": "https://market-resized.envatousercontent.com/codecanyon.net/files/429845255/01_preview.jpg?auto=format&q=94&cf_fit=crop&gravity=top&h=6780&w=500&s=cdf745a9357b927677c665db2f6dd6f1edfb44d572e3c2a73e90eae67f053630",
+              "title": "WhatsApp Chat Support Pro WordPress Plugin",
+              "demoLink": "https://wpchatplugins.com/whatsapp-chat-support/"
+            },
+            {
+              "image": "https://market-resized.envatousercontent.com/codecanyon.net/files/479711851/01_preview.jpg?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=7ebf79acd2c82970f3f10ce87e672ee0a0e286d5147d5ae1bd1dab18e069f2aa",
+              "title": "Greet.wp - Video bubble WordPress plugin",
+              "demoLink": "https://wp-plugins.themeatelier.net/greet/"
+            },
+            {
+              "image": "https://market-resized.envatousercontent.com/codecanyon.net/files/270150482/01_preview.jpg?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=7ac42173bb9ff88d5df97445a2a8fae9d9c79f05fca6b2be5415bcc079216605",
+              "title": "BizReview – Business Review WordPress Plugin",
+              "demoLink": "https://wp-plugins.themeatelier.net/bizreview/"
+            },
+            {
+              "image": "https://market-resized.envatousercontent.com/codecanyon.net/files/268530013/01_preview.png?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=76235341193b0e53e6441de07e9373b17a2f40f02ce28ddfa2c9bb9997a2e595",
+              "title": "IDonatePro – Blood Donation, Request, And Donor Management WordPress Plugin",
+              "demoLink": "https://demo.bloodwp.com/"
+            },
+            {
+              "image": "https://market-resized.envatousercontent.com/codecanyon.net/files/263421936/01_preview.jpg?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=6dbb0a8b4c314dd3d753ec0f93c8cf2427abc20140a9cd21a98e9a66e99bd768",
+              "title": "WP Fancy Title and Ticker WordPress Plugin",
+              "demoLink": "https://wp-plugins.themeatelier.net/fancytitle"
+            },
+            {
+              "image": "https://market-resized.envatousercontent.com/codecanyon.net/files/482817279/01_preview.png?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=2bc00669fcbf3d6bba24713d0c407bb2693f16c4f347137b2e769c8630abde74",
+              "title": "Smart Post Layout For WordPress",
+              "demoLink": "https://wp-plugins.themeatelier.net/postify/post-carousel/"
+            },
+            {
+              "image": "https://market-resized.envatousercontent.com/codecanyon.net/files/483743043/01_preview.png?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=e2471267eeb3e374f655c4912c64f89e358d0aa89b54b9524c8ad5bcb2899d95",
+              "title": "Events Showcase For The Events Calendar",
+              "demoLink": "https://wp-plugins.themeatelier.net/eventful"
+            },
+            {
+              "image": "https://market-resized.envatousercontent.com/codecanyon.net/files/485327031/01_preview.jpg?auto=format&q=94&cf_fit=crop&gravity=top&h=6780&w=500&s=cefb6d4d1e37f7788f6885992d424ac8d3672a8731f30bc8affb262240dec9e5",
+              "title": "Bookify – Smart Book Showcase For WordPress",
+              "demoLink": "https://wp-plugins.themeatelier.net/bookify"
+            },
+            {
+              "image": "https://market-resized.envatousercontent.com/codecanyon.net/files/486167661/01_preview.jpg?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=b87543de0d0c81b37e3190f5ee0acf4aad74db6fe41520bc8c4b2815f0f55a8d",
+              "title": "Products Displays For WooCommerce – Productify",
+              "demoLink": "https://wp-plugins.themeatelier.net/productify/"
+            }
+            
+          ]
+        }
+      },
+      "faq": {
+        "title": "Have any Question?",
+        "subtitle": "Here are some frequently asked questions by our users.",
+        "bgGradient": "linear-gradient(180deg, #fff 0%, #abdeff 100%);",
+        "imgColorPrimary": "#21769A",
+        "imgColorSecondary": "#135978",
+        "allFaq": [
+          {
+            "title": "What is your refund policy?",
+            "description": "We fully stand behind our plugins and are committed to delivering quality. However, we understand that not every plugin will be a perfect fit for everyone. If you’re not satisfied with your purchase, encounter any issues, or if there’s a problem we can’t resolve, we’re happy to offer a full 100% refund within 14 days of your original purchase—no questions asked."
+          },
+          {
+            "title": "Can I use a ThemeAtelier plugins on more than one site?",
+            "description": "When purchasing a ThemeAtelier plugin from CodeCanyon, the licensing terms are governed by CodeCanyon's standard licenses. According to these terms, each license permits the use of the plugin on a single end product, which typically translates to one website or domain. This means that to use the plugin on multiple sites, you would need to purchase separate licenses for each site. It's important to note that CodeCanyon does not offer a developer or multi-site license for themes and code items. Therefore, even with an Extended License, the usage is still limited to a single end product and does not extend to multiple sites."
+          },
+          {
+            "title": "Can I customize the plugins?",
+            "description": "Our plugins are fully customizable, giving you complete control over the styling. Each plugin includes an easy-to-use settings panel, allowing you to adjust all features without needing to touch a single line of code."
+          },
+          {
+            "title": "How often are plugins updated?",
+            "description": "Plugin updates depend on several factors. Security patches and critical bug fixes are prioritized and released as quickly as possible. Updates that enhance our plugin framework and introduce new features are provided regularly."
+          },
+          {
+            "title": "Are the plugins translation-ready?",
+            "description": "Yes, ThemeAtelier plugins are fully translatable and have been tested with WPML, Polylang, Loco Translate, qTranslate-X, GTranslate, Google Language Translator, WPGlobus, and more."
+          }
+        ]
+      }
+    }
   ]
 }
