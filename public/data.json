@@ -649,5 +649,94 @@
         ]
       }
     }
+  ],"essentialWoo": [
+    {
+      "hero": {
+        "primary": "#4C306C",
+        "secondary": "#32204A",
+        "logo": "https://s3.envato.com/files/544384854/Thumbnail.png",
+        "bgImage": "./images/essentialWoo/hero.webp",
+        "tags": "Bundle",
+        "title": "WooCommerce Plugins",
+        "subtitle": "Essential Plugin Bundle for WooCommerce",
+        "demoBtn": "CHECK THE DEMO",
+        "demoBtnLink": "#demo",
+        "buyNowTitle": "BUY NOW",
+        "buyNowLink": "https://1.envato.market/woocommerce-bundle",
+        "bgGradient": "linear-gradient(180deg, #fff 0%, #C6BADA 100%);"
+      },
+      "demo": {
+        
+        "single": {
+          "title": "All Plugins Inside The Bundle",
+          "subtitle": "",
+          "primary": "#4C306C",
+          "secondary": "#32204A",
+          "tertiary": "#fff",
+          "allDemo": [
+            {
+              "image": "https://market-resized.envatousercontent.com/codecanyon.net/files/486167661/01_preview.jpg?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=b87543de0d0c81b37e3190f5ee0acf4aad74db6fe41520bc8c4b2815f0f55a8d",
+              "title": "Products Displays For WooCommerce",
+              "demoLink": "https://wp-plugins.themeatelier.net/productify/"
+            },
+            {
+              "image": "https://market-resized.envatousercontent.com/codecanyon.net/files/493176078/01_preview.jpg?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=383117a4a7847334130d75b5a172b55025ebf065ef2316ed021e50626b7dfa60",
+              "title": "CatShowcase - Category Showcase",
+              "demoLink": "https://wp-plugins.themeatelier.net/productify/catshowcase/"
+            },
+            {
+              "image": "https://market-resized.envatousercontent.com/codecanyon.net/files/477240801/01_preview.png?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=a13ff048799be5c31f89864c4838b40488c8c7fbd0277221190f5cbe9315bcab",
+              "title": "QuoteMate - Get A Quote By WhatsApp",
+              "demoLink": "https://themeatelier.net/quotemate/"
+            },
+            {
+              "image": "./images/essentialWp/product-brands.png",
+              "title": "Product Brands For WooCommerce",
+              "demoLink": "https://wp-plugins.themeatelier.net/brands/"
+            },
+            {
+              "image": "./images/essentialWp/productify-elementor.png",
+              "title": "Products Displays For Elementor",
+              "demoLink": "https://wp-plugins.themeatelier.net/productify/productify-el-grid/"
+            },
+            {
+              "image": "./images/essentialWp/catshowcase-elementor.png",
+              "title": "Category Displays For Elementor",
+              "demoLink": "https://wp-plugins.themeatelier.net/productify/catshowcase-el/"
+            }
+            
+          ]
+        }
+      },
+      "faq": {
+        "title": "Have any Question?",
+        "subtitle": "Here are some frequently asked questions by our users.",
+        "bgGradient": "linear-gradient(180deg, #fff 0%, #C6BADA 100%);",
+        "imgColorPrimary": "#4C306C",
+        "imgColorSecondary": "#32204A",
+        "allFaq": [
+          {
+            "title": "What is your refund policy?",
+            "description": "We fully stand behind our plugins and are committed to delivering quality. However, we understand that not every plugin will be a perfect fit for everyone. If you’re not satisfied with your purchase, encounter any issues, or if there’s a problem we can’t resolve, we’re happy to offer a full 100% refund within 14 days of your original purchase—no questions asked."
+          },
+          {
+            "title": "Can I use a ThemeAtelier plugins on more than one site?",
+            "description": "When purchasing a ThemeAtelier plugin from CodeCanyon, the licensing terms are governed by CodeCanyon's standard licenses. According to these terms, each license permits the use of the plugin on a single end product, which typically translates to one website or domain. This means that to use the plugin on multiple sites, you would need to purchase separate licenses for each site. It's important to note that CodeCanyon does not offer a developer or multi-site license for themes and code items. Therefore, even with an Extended License, the usage is still limited to a single end product and does not extend to multiple sites."
+          },
+          {
+            "title": "Can I customize the plugins?",
+            "description": "Our plugins are fully customizable, giving you complete control over the styling. Each plugin includes an easy-to-use settings panel, allowing you to adjust all features without needing to touch a single line of code."
+          },
+          {
+            "title": "How often are plugins updated?",
+            "description": "Plugin updates depend on several factors. Security patches and critical bug fixes are prioritized and released as quickly as possible. Updates that enhance our plugin framework and introduce new features are provided regularly."
+          },
+          {
+            "title": "Are the plugins translation-ready?",
+            "description": "Yes, ThemeAtelier plugins are fully translatable and have been tested with WPML, Polylang, Loco Translate, qTranslate-X, GTranslate, Google Language Translator, WPGlobus, and more."
+          }
+        ]
+      }
+    }
   ]
 }
